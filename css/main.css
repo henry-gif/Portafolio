@@ -14,3 +14,10 @@ navigation-clean-button{
     font-size: 40px bold #000000;
     text-align: center;
 }
+.card{
+    width: 30%;
+    border-style: inset ;
+}
+canvas{
+    width: 100%;
+}
