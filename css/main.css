@@ -8,6 +8,16 @@ sticky-top
 navigation-clean-button{
     height: 80px; 
     background-color:
-     #37434d; 
-     color: #567793
+     #567793
+}
+.card-title{
+    font-size: 40px bold #000000;
+    text-align: center;
+}
+.card{
+    width: 30%;
+    border-style: inset ;
+}
+canvas{
+    width: 100%;
 }
