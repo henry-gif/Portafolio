@@ -11,13 +11,31 @@ navigation-clean-button{
      #567793
 }
 .card-title{
-    font-size: 40px bold #000000;
+    font-size: 80% bold #000000;
     text-align: center;
+    
 }
 .card{
-    width: 30%;
-    border-style: inset ;
+    height: auto;
+    max-width: 100%;
 }
 canvas{
     width: 100%;
+}
+
+@keyframes identifier {
+    
+}
+#cabecera-central{
+    text-align: center;
+    border: #000000 bold;
+}
+#imgPerfil{
+    height: auto;
+
+    max-width: 50%
+}
+.card-body{
+    height: auto;
+    max-width: 70%;
 }

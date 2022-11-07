@@ -1,80 +1,121 @@
 <DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-       <!-- Encabezado -->
-        <title>Henry Junior Lozada Quilcat</title>
-        <link rel="icon" type="img/png" sizes="32x32" href="../img/logo.png">
-        <!-- CSS only -->
-        <link rel="stylesheet" href="main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Encabezado -->
+    <title>Henry Junior Lozada Quilcat</title>
+    <link rel="icon" type="img/png" sizes="32x32" href="../img/logo.png">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
-    </head>
-    
-    <body>
-      <nav class="
-      navbar navbar-light navbar-expand-md
-      sticky-top
-      navigation-clean-button
-    " style="height: 100 px; background-color: #567793">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="main.html">
-            <img src="../img/logo.png" alt="" class="logo" height="60" />
-          </a>
-          <button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler">
-            <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navcol-1">
-            <ul class="nav navbar-nav navbar-center"> 
-              <li class="nav-item">
-                <a class="nav-link active"  id="opc1" style="color: #000000; font-weight: bold; font-size: 25px" href="index.html"><i
-                    class="fa fa-home"></i>Mis proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active"  id="opc2"style="color: #000000; font-weight: bold; font-size: 25px"
-                  href="nosotros.html"><i class="fa fa-wpexplorer"></i>Mis conocimientos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="opc3" style="color: #000000; font-weight: bold; font-size: 25px"
-                  href="Producto.html"><i class="fa fa-star-o"></i>Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active"id="opc4" style="color: #000000; font-weight: bold; font-size: 25px"
-                  href="services.html"><i class="fa fa-star-o"></i>Servicios</a>
-              </li>
-            </ul>
-          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/animacion.js"></script>
+  </head>
+
+  <body>
+    <nav class="
+  navbar navbar-light navbar-expand-md
+  sticky-top
+  navigation-clean-button
+" style="height: 100 px; background-color: #567793">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="main.html">
+          <img src="../img/logo.png" alt="" class="logo" height="60" />
+        </a>
+        <button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler">
+          <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="nav-item">
+              <a class="nav-link active" id="opc1" style="color: #000000; font-weight: bold; font-size: 25px"
+                href="index.html"><i class="fa fa-home"></i>Mis proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="opc2" style="color: #000000; font-weight: bold; font-size: 25px"
+                href="Conocimientos.html"><i class="fa fa-wpexplorer"></i>Mis conocimientos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" id="opc4" style="color: #000000; font-weight: bold; font-size: 25px"
+                href="services.html"><i class="fa fa-star-o"></i>Servicios</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-     
-       <div class="container">
-      <div class="row">
-        <div class="col" >
-          <br>
-          <div class="card " >
-            <div class="card-body">
-              <div class="card-title">Henry Junior Lozada Quilcat</div>
-              <div class="card-text">
-                Bienvenido a mi pagina de conocimientos y certificaciones
+      </div>
+    </nav>
+    <div class="row">
+      <canvas id="canvas" width="1920px" height="100" style="margin-left: 0px; "></canvas>
+      <div class="col">
+
+        <div class="container-fluid">
+          
+
+          <div class="row">
+            <h1 id="cabecera-central">Henry Junior Lozada Quilcat</h1>
+            <div class="col">
+              <div class="card " style="border-radius: 30px ;">
+              
+                <div class="card-body" style="font-size: 20px; ">
+                  <h2 class="card-title "></h2>
+                  <br>
+                  <div class="card-text">
+                    Bienvenido a mi pagina de conocimientos y
+                    certificacionesaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    <h3>Informacion de contacto</h3>
+                    <div>
+                      Celular:9012226196
+                    </div>
+                    <div>
+                      Correo Electrónico:hlokiq99@hotmail.com
+                    </div>
+                    <div class="card">
+                      <div class="card-text">
+                        Multiples interes aplicacion de software y
+                      </div>
+                      <div class="container">
+                        <div class="row align-items-start">
+                          <div class="col">
+                            asdsasdasdaadsdsasadsad
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
               </div>
             </div>
+            <div class="col">
+              <img src="../Portafolio/img/foto.png" class="rounded ">
+            </div>
+            
+            <br>
+
+    
+          
           </div>
+          
         </div>
-       <div class="col">
-         <div class=" text center">
-           <img src="" alt="" class="rounded">
-         </div>
-       </div>
+
+
       </div>
-         
-        
-      
-    
-    
-    </body>
-    </html>
+
+    </div>
+
+
+
+
+
+  </body>
+
+  </html>

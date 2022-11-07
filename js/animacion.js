@@ -4,10 +4,11 @@ var img = new Image();
 // dirección y velocidad.
 
 img.src = '../img/canvas.jpg';
-var CanvasXSize = 800;
-var CanvasYSize = 200;
-var speed = 45; //más bajo es más rápido
-var scale = 1.05;
+
+var CanvasXSize = 1600;
+var CanvasYSize = 400;
+var speed = 20; //más bajo es más rápido
+var scale = 0.3;
 var y = -4.5; //desplazamiento vertical
 
 // Programa principal
@@ -56,14 +57,18 @@ function draw() {
         // reiniciar, comenzar desde el principio
         if (x > CanvasXSize) {
             x = -imgW + x;
+          
         }
         // dibujar image1 adicional
         if (x > 0) {
             ctx.drawImage(img, -imgW + x, y, imgW, imgH);
+            
+            
         }
         // dibujar image2 adicional
         if (x - imgW > 0) {
             ctx.drawImage(img, -imgW * 2 + x, y, imgW, imgH);
+            
         }
     }
 
@@ -75,7 +80,7 @@ function draw() {
         }
         // dibujar image adicional
         if (x > (CanvasXSize-imgW)) {
-            ctx.drawImage(img, x - imgW + 1, y, imgW, imgH);
+            ctx.drawImage(img, x - imgW + 2, y, imgW, imgH);
         }
     }
     // dibujar imagen
