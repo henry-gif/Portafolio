@@ -21,11 +21,12 @@ navigation-clean-button{
 }
 canvas{
     width: 100%;
+    width: 1920px ;
+    height:90px;
+ 
 }
 
-@keyframes identifier {
-    
-}
+
 #cabecera-central{
     text-align: center;
     border: #000000 bold;

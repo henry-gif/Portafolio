@@ -7,8 +7,8 @@ img.src = '../img/canvas.jpg';
 
 var CanvasXSize = 1600;
 var CanvasYSize = 400;
-var speed = 20; //más bajo es más rápido
-var scale = 0.3;
+var speed = 60; //más bajo es más rápido
+var scale = 0.4;
 var y = -4.5; //desplazamiento vertical
 
 // Programa principal
