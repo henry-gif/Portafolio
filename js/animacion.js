@@ -88,3 +88,22 @@ function draw() {
     // cantidad para moverse
     x += dx;
 }
+// const text = document.getElementById("opc");
+
+// // 👇️ Change text color on mouseover
+// text.addEventListener('mouseover', function handleMouseOver() =>{
+//    text.style.color = 'black';
+  
+// });
+
+// // 👇️ Change text color back on mouseout
+// box.addEventListener('mouseout', function handleMouseOut() {
+//   text.style.color = 'black';
+// });
+
+
+
+/*background: #555; 
+display: block; 
+color: #fff;
+text-shadow: 0 -1px 0 #000*/
