@@ -1,8 +1,8 @@
-document.getElementById(img)
-$(document).ready(function() {
-    $('.nav').hover(function() {
-        $('a').addClass('add')
-    }, function() {
-        $('a').removeClass('add')
-    });
+const text = document.getElementById('opc');
+
+// 👇️ Change text color on mouseover
+text.addEventListener('mouseover', function handleMouseOver() {
+  text.style.color = 'red';
 });
+
+const cursor=document.getElementsByClassName("body");
